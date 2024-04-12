@@ -19,7 +19,7 @@ jobs:
     - name: Deploy via SSH
       uses: appleboy/ssh-action@master
       with:
-        host: u725173075@89.116.192.253
+        host: 89.116.192.253
         username: u725173075
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.HOSTINGER_PORT }} # Default SSH port is 22
